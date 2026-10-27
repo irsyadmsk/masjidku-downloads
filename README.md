@@ -48,3 +48,7 @@ Kredit proyek ini tidak menggantikan lisensi library pihak ketiga atau hak foto 
 Halaman publik mengadopsi token dan runtime Irsyads v1 (`assets/irsyads-v1`) dari repo `irsyads/packages/design-tokens/standalone/v1`. Panel Tampilan menawarkan system/light/dark dan enam palet. Preferensi tema/palet produksi memakai cookie parent-domain nonrahasia; link katalog mengikuti preferensi bahasa. Halaman produk masih Indonesia, APK/layar/admin lokal tidak berubah. Browser lokal 390 px dan reload tema/palet diuji; belum deploy atau uji perangkat nyata.
 
 Untuk memperbarui ekspor, jalankan `npm run design:export` di repo Irsyads dan salin berkas v1. Jangan mengedit hasil ekspor secara terpisah. Lihat matriks lengkap di `irsyads/docs/Project Web Irsyads/2026-10-02_PAKET_3_FONDASI.md`.
+
+## Untuk pemelihara dan AI
+
+Repo publik ini adalah hasil salinan `mosque/public-site` (repo source `irsyadmsk/mosque`). Sunting di sumbernya, lalu salin ke sini. Push ke `main` langsung menayangkan mosque.irsyads.com lewat GitHub Pages (`.github/workflows/pages.yml`, seluruh root diunggah), jadi jangan push tanpa persetujuan pemilik dan jangan menaruh berkas privat di repo ini. `assets/irsyads-v1/`, `ecosystem.css`, `ecosystem.js` adalah hasil ekspor design-tokens irsyads.
